@@ -4,7 +4,7 @@ Created on Fri Jun  7 17:21:44 2019
 
 @author: tnuta
 """
-
+#https://oshearesearch.com/index.php/2016/07/01/mnist-generative-adversarial-model-in-keras/
 
 #However, their is still a gap between the simulated and real 
 #datasets which Deep Convolutional Neural Networks cannot overcome on their own.
