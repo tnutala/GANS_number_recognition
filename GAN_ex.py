@@ -70,7 +70,7 @@ dopt = Adam(lr=1e-3)
 nch = 200
 g_input = Input(shape=[100])
 H = Dense(nch*14*14, init='glorot_normal')(g_input)
-H = BatchNormalization(mode=2)(H)
+H = BatchNormalization(H)
 H = Activation('relu')(H)
 H = Reshape( [nch, 14, 14] )(H)
 H = UpSampling2D(size=(2, 2))(H)
