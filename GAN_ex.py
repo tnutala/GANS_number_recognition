@@ -41,6 +41,15 @@ img_rows, img_cols = 28, 28
 # the data, shuffled and split between train and test sets
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
+print(np.shape(X_train))
+print('Heres what I\'m working with')
+image1=X_train[0]
+print(np.shape(image1))
+print(image1)
+
+
+
+#standardizing... 
 X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols)
 X_test = X_test.reshape(X_test.shape[0], 1, img_rows, img_cols)
 X_train = X_train.astype('float32')
