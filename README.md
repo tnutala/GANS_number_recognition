@@ -1,2 +1,2 @@
 # GANS_number_recognition
-personal image recognition project using GANs (Generative Adversarial Networks) 
+personal image recognition and generation project using GANs (Generative Adversarial Networks) 
